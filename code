@@ -10,3 +10,5 @@ from sklearn.preprocessing import OneHotEncoder
 df = pd.get_dummies(df, columns=['genres', 'Languages'], drop_first=True)
 
 print(df[['budget', 'Votes', 'Duration']].dtypes)
+
+write now
